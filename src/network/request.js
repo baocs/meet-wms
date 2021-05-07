@@ -5,7 +5,7 @@ import axios from "axios";
 export function request(config) {
     /*第一步：创建一个实例对象*/
     const instance=axios.create({
-        baseURL:'/api',
+        /*baseURL:'/api',*/
         timeout:6000
     })
     /*第二步：拦截器的配置*/
